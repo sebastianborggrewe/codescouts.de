@@ -1,0 +1,21 @@
+<div class="header">
+  <h1><a href="{{ site.url }}">CodeScouts<span class="light">.de</span></a></h1>
+    <nav>
+      <ul>
+      {% if '/' == page.url %}
+        <li><a class="selected" href="{{ site.url }}">Startseite</a></li>
+      {% else %}
+        <li><a class="unselected " href="{{ site.url }}">Startseite</a></li>
+      {% endif %}
+
+      {% if '/faq/' == page.url %}
+        <li><a class="selected" href="{{ site.url }}/faq/">FAQ</a></li>
+      {% else %}
+        <li><a class="unselected" href="{{ site.url }}/faq/">FAQ</a></li>
+      {% endif %}
+
+      </ul>
+    </nav>
+</div>
+
+<div class="container">
