@@ -1,8 +1,9 @@
 # Site settings
 title: CodeScouts.de
 email: florian@codescouts.de
-baseurl: ""
-url: "http://codescouts.de"
+baseurl: "/"
+url: "https://codescouts.de"
+domain: codescouts.de
 #url: "http://localhost:4000"
 
 # Build settings
