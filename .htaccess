@@ -1,0 +1,4 @@
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^codescouts\.de$ [NC]
+RewriteRule ^(.*)$ http://codescouts.de/$1 [R=301,L]
