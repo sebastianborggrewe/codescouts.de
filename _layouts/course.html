@@ -13,7 +13,7 @@ $(function($)
 
   var part          = 1,
       regex_result  = window.location.search.match(/\?part=(\d+)/),
-      vimeo_template = 'http://player.vimeo.com/video/[VID]?portrait=0&amp;byline=0&amp;title=0&amp;color=000000&amp;autoplay=1&amp;api=1&amp;player_id=cs_player';
+      vimeo_template = 'https://player.vimeo.com/video/[VID]?portrait=0&amp;byline=0&amp;title=0&amp;color=000000&amp;autoplay=1&amp;api=1&amp;player_id=cs_player';
 
   if(regex_result && regex_result.length == 2)
     part = regex_result[1];
